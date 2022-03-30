@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Vorobyeva CV</title>
+</head>
+
+<body>
+  <table cellspacing="15">
+    <tr>
+      <td><img src="avatar.jfif" width="200" alt="thi is an avatar" /></td>
+      <td>
+        <h1>Vorobyeva Olga</h1>
+        <p>
+          <em> I am a <strong>junior</strong> software developer</em>
+        </p>
+        <p>
+          I like to learn new programming languages, traveling and dancing.
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <hr />
+
+  <h2>My social nets</h2>
+  <ul type="square">
+    <li>
+      <a href="https://www.facebook.com/profile.php?id=100009222178481" target="_blank">facebook</a>
+    </li>
+  </ul>
+
+  <hr />
+
+  <h2>My hobbies</h2>
+  <ol>
+    <li>Dancing</li>
+    <li>sport</li>
+    <li>traveling</li>
+  </ol>
+
+  <hr />
+
+  <h2>Job experience</h2>
+  <table cellspacing="15">
+    <thead>
+      <tr>
+        <th>Company</th>
+        <th>role</th>
+        <th>year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dipart</td>
+        <td>software engineer</td>
+        <td>2014-2015</td>
+      </tr>
+      <tr>
+        <td>X-xx</td>
+        <td>software engineer</td>
+        <td>2015-2017</td>
+      </tr>
+    </tbody>
+    <tfoot></tfoot>
+  </table>
+  <hr />
+  <h2>Created sites</h2>
+  <a href="sitesList.html">see list</a>
+
+  <hr />
+  <h2>Contact me</h2>
+
+  <form action="/"> <!--тут может быть php/ удаленный сервер/связать с js. оставим / - останемся на этой же странице--> 
+    <label for="name">Your name</label> <!--если for у lable совпадает с id у input, то при клики на lable курсор позиционируется на input-->
+    <input type="text" id="name" placeholder="Your name.." />
+
+    <br />
+
+    <label for="email">Your email</label>
+    <input type="email" id="email" placeholder="Your email.." />
+
+    <br />
+
+    <label for="message">Your message</label>
+    <br />
+    <textarea name="" id="message" cols="30" rows="5"></textarea>
+
+    <input type="submit" value="Contact!" />
+  </form>
+</body>
+
+</html>
